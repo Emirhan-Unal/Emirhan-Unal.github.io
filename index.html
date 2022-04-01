@@ -1,38 +1,27 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Emirhan der senci</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Wassup im Emirhan</h1>
-				<p>bbbi<em>mmmn</em> ooou <a href="/about">https://youtu.be/uV4qDYgqYtU</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/Emirhan-Unal">github.com/Emirhan-Unal</a></li>
-			</ul>
-			<title>Hank Quinlan, Horrible Cop</title>
-			<video width="320" height="240" controls>
-  <source src="https://youtu.be/uV4qDYgqYtU" type="video/mp4">
-  
-  Your browser does not support the video tag.
-</video>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	
-		
-		</footer>
-	</body>
-</html>
+	![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+
+	<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Gapur&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
+	
+	name: Waka Readme
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at 12am UTC
+    - cron: "0 0 * * *"
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+	<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+      
