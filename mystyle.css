@@ -18,7 +18,7 @@ body {
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: blue;
+    background-color: lightred;
     transform: scaleY(1);
     transition: all 0.5s;
     transform-origin: bottom
@@ -31,7 +31,7 @@ body {
     top: 0;
     width: 4px;
     height: 100%;
-    background-color: darkblue;
+    background-color: blue;
     transform: scaleY(0);
     transition: all 0.5s;
     transform-origin: bottom
@@ -60,7 +60,7 @@ body {
 
 .buttons button:nth-child(1) {
     border: 1px solid #8E24AA !important;
-    color: #8E24AA;
+    color: lila;
     height: 40px
 }
 
